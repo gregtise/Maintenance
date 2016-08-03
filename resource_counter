@@ -1,0 +1,10 @@
+x == 0.0
+activity_no == 1
+activity_list = []
+rawinput ("Enter the maintenance window length") = x
+continue = "Y"
+while continue == "Y"
+  rawinput ("Enter the activity duration") = duration
+  insert.activity_list[(activity_no, duration)
+  continue = rawinput("Are there any other activities?")
+  
